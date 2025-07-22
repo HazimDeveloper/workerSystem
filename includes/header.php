@@ -11,7 +11,6 @@ $user = getCurrentUser();
         <nav class="nav-menu">
             <a href="dashboard.php" class="nav-link">🏠 Dashboard</a>
             <a href="documents.php" class="nav-link">📄 Documents</a>
-            <a href="add_document.php" class="nav-link">➕ Add Document</a>
             <?php if (isAdmin()): ?>
                 <a href="categories.php" class="nav-link">📁 Categories</a>
                 <a href="users.php" class="nav-link">👥 Users</a>
